@@ -12,6 +12,7 @@ public final class FighterJet extends JavaPlugin {
 
         // Save the default config if it doesn't exist
         saveDefaultConfig();
+        // Load the config
 
         // Register commands, listeners, etc.
         getLogger().info("FighterJet has been enabled!");

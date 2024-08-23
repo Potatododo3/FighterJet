@@ -32,7 +32,7 @@ public class Utility {
     }
 
     public static List<String> translate(List<String> input) {
-        return (List<String>)input.stream().map(Utility::translate).collect(Collectors.toList());
+        return input.stream().map(Utility::translate).collect(Collectors.toList());
     }
     public static String[] color(String... messages) {
         for (int i = 0; i < messages.length; i++) {
