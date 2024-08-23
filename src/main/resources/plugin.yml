@@ -1,0 +1,4 @@
+name: FighterJet
+version: '${project.version}'
+main: com.potato.fighterjet.FighterJet
+api-version: '1.21'
